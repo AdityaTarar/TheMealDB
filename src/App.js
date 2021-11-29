@@ -20,25 +20,25 @@ export default class App extends React.Component{
          {this.state.loading ? <div>loading..</div>:
          <div className="wrapper">
           <div className="card">
-            <div className="cardBody1">
+            <div>
               <img src={this.state.person[0].strMealThumb} className="img"/>
               <h3>{this.state.person[0].strMeal}</h3>
             </div>
           </div>
           <div className="card">
-            <div className="cardBody2">
+            <div>
               <img src={this.state.person[1].strMealThumb} className="img"/>
               <h3>{this.state.person[1].strMeal}</h3>
             </div>
           </div>
           <div className="card">
-            <div className="cardBody3">
+            <div>
               <img src={this.state.person[2].strMealThumb} className="img"/>
               <h3>{this.state.person[2].strMeal}</h3>
             </div>
           </div>
           <div className="card">
-            <div className="cardBody4">
+            <div>
               <img src={this.state.person[3].strMealThumb} className="img"/>
               <h3>{this.state.person[3].strMeal}</h3>
             </div>
